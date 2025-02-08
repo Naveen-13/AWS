@@ -1,0 +1,5 @@
+1. chmod 0400 file_nameexplain       //this is used to protect the file for unauthorized access
+Explaination :  0 → No special permissions (no setuid, setgid, or sticky bit).
+                4 → Read permission for the owner.
+                0 → No permission for the group.
+                0 → No permission for others.
